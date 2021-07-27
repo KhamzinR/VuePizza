@@ -16,6 +16,7 @@ export default {
 </script>
 
 // Импортируем глобальные стили для приложения
+
 <style lang="scss">
 @import "~@/assets/scss/app";
 </style>
