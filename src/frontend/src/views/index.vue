@@ -134,11 +134,13 @@
       </div>
     </div>
     // Если колонок нет - показываем инфо текст
+
     <p
       v-else
       class="desk__emptiness"
     >
       Пока нет ни одной колонки
+
     </p>
   </section>
 </template>
