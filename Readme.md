@@ -1,6 +1,7 @@
-# Личный проект «VuePizza»
+# Личный проект «{{projectTitle}}»
 
-* Студент: [Rhamzin](https://up.htmlacademy.ru/vue/1/user/35063).
+* Студент: [{{userName}}]({{userProfile}}).
+Хамзин Рустам Фаритович
 
 ---
 
@@ -161,7 +162,7 @@ npm start
    Устанавливаем WSL прямо по шагам, указанным в статье https://docs.microsoft.com/ru-ru/windows/wsl/install-win10#manual-installation-steps
 
    На шаге 6 "Установка дистрибутива Linux по выбору" для Windows 10 с русским языком в Microsoft Store нет ничего. Поэтому используем ссылки на страницы Microsoft Store ниже под картинкой: устанавливаем Ubuntu 18.04 LTS. Далее - продолжаем установку по инструкции. В конце установки Ubuntu рекомендуется закрепить ярлык на начальном экране (при нажатии на "Пуск").
-   
+
    Устанавливать Терминал Windows необязательно - он не нужен, т.к. удобнее использовать терминалы из VSCode.
 
 ### Настраиваем Ubuntu 18.04 LTS
@@ -254,7 +255,7 @@ pre-commit install
 
 В терминале VS Code в оболочке PowerShell:
 - Выполнить команду `docker-compose build`
-  
+
 В терминале VS Code переключаемся на оболочку Ubuntu-18.04 (WSL):
 - Запустить проект с помощью команды `make start_project`
 - Для остановки нажать Ctrl+C
